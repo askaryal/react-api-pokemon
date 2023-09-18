@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Small example proyect of how to integrate pokemon api, with a card design: fetch, async, await, props, useState, useEffect, components, react-icons, sass
 
 Currently, two official plugins are available:
 
