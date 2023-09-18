@@ -1,0 +1,31 @@
+@use 'variables' as colores;
+.button{
+    background-color: colores.$color1_rosa;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color:white;
+    font-size:24px;
+    text-align: center;
+    
+
+
+    &__box{
+    
+        position:relative;
+    }
+    &__shadow{
+        width: 60px;
+        height:60px;
+        background-color:colores.$color2_azul;
+        border-radius: 50%;
+        position: absolute;
+        top:4px;
+        z-index:-1;
+    }
+    &:active{
+        transform: translateY(4px);
+    }
+}

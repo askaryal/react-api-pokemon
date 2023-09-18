@@ -1,0 +1,13 @@
+@use 'variables' as colores;
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: colores.$color3_verde;
+    margin: 0;
+}
